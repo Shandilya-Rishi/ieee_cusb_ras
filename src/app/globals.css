@@ -181,6 +181,16 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   gap: 1rem;
 }
+.nav-brand .ieee-text {
+  color: var(--ras-plum);
+  transition: color 0.2s ease-in-out;
+}
+.nav-brand:hover {
+  color: var(--ras-plum-accent);
+}
+.nav-brand:hover .ieee-text {
+  color: var(--ras-plum-accent);
+}
 @media (prefers-color-scheme: dark) {
   .nav-brand { color: var(--neutral-100); }
 }
