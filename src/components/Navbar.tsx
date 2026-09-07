@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ThemeToggle from './ThemeToggle';
 
 export default function Navbar() {
   return (
@@ -21,6 +22,7 @@ export default function Navbar() {
             </div>
             
             <div className="nav-actions">
+              <ThemeToggle />
               <Link href="/join" className="btn btn-primary">
                 Become a RAS Member
               </Link>
