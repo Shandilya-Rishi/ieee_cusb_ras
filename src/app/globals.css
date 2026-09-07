@@ -42,7 +42,7 @@
   --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-[data-theme="dark"] {
+:root[data-theme="dark"] {
   /* Optional: We keep the same palette for dark mode or adapt slightly if needed, 
      but for now we map it directly to ensure brand consistency */
   --bg-main: #121212;
@@ -133,6 +133,16 @@ a:hover {
 }
 .btn-secondary:hover {
   background-color: rgba(255, 255, 255, 0.1);
+  color: var(--neutral-100);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1.5px solid var(--ras-plum);
+  color: var(--ras-plum);
+}
+.btn-outline:hover {
+  background-color: var(--ras-plum);
   color: var(--neutral-100);
 }
 
