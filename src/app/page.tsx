@@ -13,7 +13,7 @@ export default function Home() {
             Join us in exploring the future of robotics and automation.
           </p>
           <div className="hero-actions">
-            <a href="https://www.ieee.org/membership/join/index.html" target="_blank" rel="noopener noreferrer" className="btn btn-hero">
+            <a href="/join" className="btn btn-hero">
               Become a RAS Member
             </a>
             <a href="/events" className="btn btn-secondary">

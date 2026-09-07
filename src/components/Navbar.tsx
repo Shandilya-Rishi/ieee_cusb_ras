@@ -21,9 +21,9 @@ export default function Navbar() {
             </div>
             
             <div className="nav-actions">
-              <a href="https://www.ieee.org/membership/join/index.html" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+              <Link href="/join" className="btn btn-primary">
                 Become a RAS Member
-              </a>
+              </Link>
               <Link href="/login" className="nav-link login-link">Login</Link>
             </div>
           </div>
