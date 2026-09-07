@@ -144,29 +144,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
 }
 
-/* Top Global Header Bar */
-.global-top-bar {
-  background-color: var(--black);
-  padding: 0.5rem 0;
-  border-bottom: 3px solid var(--ras-copper);
-}
 
-.global-top-bar-container {
-  display: flex;
-  justify-content: flex-end;
-  gap: 1.5rem;
-  align-items: center;
-}
-
-.global-top-bar a {
-  color: var(--neutral-500);
-  font-size: 0.875rem;
-  transition: color 0.2s;
-}
-
-.global-top-bar a:hover {
-  color: var(--neutral-100);
-}
 
 /* Main Floating Navbar */
 .navbar-wrapper {
