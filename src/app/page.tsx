@@ -1,7 +1,10 @@
+import { ShaderAnimation } from "@/components/ui/shader-animation";
+
 export default function Home() {
   return (
     <div className="home-page">
       <section className="hero-section">
+        <ShaderAnimation />
         <div className="container hero-content">
           <h1 className="hero-title">IEEE Robotics and Automation Society</h1>
           <h2 className="hero-subtitle">Student Branch Chapter CUSB</h2>
