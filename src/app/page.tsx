@@ -3,6 +3,7 @@ export default function Home() {
     <div className="home-page">
       <section className="hero-section">
         <div className="container hero-content">
+          {/* Main Hero Title */}
           <h1 className="hero-title">IEEE Robotics and Automation Society</h1>
           <h2 className="hero-subtitle">Student Branch Chapter CUSB</h2>
           
