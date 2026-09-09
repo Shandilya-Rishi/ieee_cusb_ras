@@ -1,9 +1,13 @@
+import LoadingLines from "@/components/ui/loading-lines";
+
 export default function Home() {
   return (
     <div className="home-page">
       <section className="hero-section">
         <div className="container hero-content">
-          <h1 className="hero-title">IEEE Robotics and Automation Society</h1>
+          <div style={{ marginBottom: '2rem' }}>
+            <LoadingLines />
+          </div>
           <h2 className="hero-subtitle">Student Branch Chapter CUSB</h2>
           
           <div style={{ height: '1px', background: 'rgba(255,255,255,0.2)', margin: '2rem auto', maxWidth: '600px' }}></div>
