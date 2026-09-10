@@ -29,6 +29,7 @@ export default function Footer() {
           <ul className="footer-links">
             <li><a href="https://www.linkedin.com/company/rascusb" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             <li><a href="https://www.instagram.com/ieeerascusb/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://ieee-cusb-website.vercel.app/" target="_blank" rel="noopener noreferrer">CUSB Main Website</a></li>
             <li><a href="https://www.ieee-ras.org/" target="_blank" rel="noopener noreferrer">IEEE RAS Global</a></li>
             <li><a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer">IEEE.org</a></li>
           </ul>

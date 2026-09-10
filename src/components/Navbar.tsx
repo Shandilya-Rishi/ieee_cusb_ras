@@ -10,7 +10,7 @@ export default function Navbar() {
           <div className="nav-container">
             <Link href="/" className="nav-brand">
               <img src="/ras-logo.png" alt="RAS Logo" style={{ height: '40px', objectFit: 'contain' }} />
-              <span className="ieee-text">IEEE RAS</span> CUSB
+              <span className="ieee-text">IEEE RAS CUSB</span>
             </Link>
             
             <div className="nav-links">
