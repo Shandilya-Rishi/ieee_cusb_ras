@@ -25,7 +25,7 @@
   /* Backgrounds */
   --bg-main: var(--neutral-100);
   --bg-secondary: var(--neutral-200);
-  --bg-footer: #111111;
+  --bg-footer: var(--neutral-200);
   --bg-card: var(--neutral-100);
 
   /* Typography */
@@ -47,6 +47,7 @@
      but for now we map it directly to ensure brand consistency */
   --bg-main: #121212;
   --bg-secondary: #1a1a1a;
+  --bg-footer: #111111;
   --bg-card: #222222;
   --text-main: #E5E7EB;
   --text-heading: #FFFFFF;
@@ -236,9 +237,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Footer */
 .footer {
   background-color: var(--bg-footer);
-  color: var(--neutral-400);
+  color: var(--text-muted);
   padding: 4rem 0 2rem;
   margin-top: 4rem;
+  border-top: 1px solid var(--border-subtle);
 }
 
 .footer-container {
@@ -249,17 +251,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-title {
-  color: var(--neutral-100);
+  color: var(--text-heading);
   margin-bottom: 1rem;
 }
 
 .footer-subtitle {
-  color: var(--neutral-100);
+  color: var(--text-heading);
   font-size: 1.1rem;
 }
 
 .footer-text {
-  color: var(--neutral-400);
+  color: var(--text-muted);
 }
 
 .footer-links {
@@ -271,18 +273,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-links a {
-  color: var(--neutral-400);
+  color: var(--text-muted);
 }
 
 .footer-links a:hover {
-  color: var(--neutral-100);
+  color: var(--ras-plum);
 }
 
 .footer-bottom {
   text-align: center;
   padding-top: 1.5rem;
-  border-top: 1px solid rgba(255,255,255,0.1);
-  color: var(--neutral-600);
+  border-top: 1px solid var(--border-subtle);
+  color: var(--text-muted);
   font-size: 0.875rem;
 }
 
