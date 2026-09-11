@@ -1,7 +1,10 @@
+import HeroBackground from "@/components/ui/hero-background";
+
 export default function Home() {
   return (
     <div className="home-page">
       <section className="hero-section">
+        <HeroBackground />
         <div className="container hero-content">
           {/* Main Hero Title */}
           <h1 className="hero-title">IEEE Robotics and Automation Society</h1>
