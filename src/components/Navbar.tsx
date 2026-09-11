@@ -1,7 +1,17 @@
+'use client';
+
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import ThemeToggle from './ThemeToggle';
 
 export default function Navbar() {
+  const pathname = usePathname();
+
+  const isActive = (path: string) => {
+    if (path === '/' && pathname !== '/') return false;
+    return pathname.startsWith(path);
+  };
+
   return (
     <>
       {/* Main Floating Navbar Wrapper */}
@@ -14,10 +24,10 @@ export default function Navbar() {
             </Link>
             
             <div className="nav-links">
-              <Link href="/" className="nav-link">Home</Link>
-              <Link href="/team" className="nav-link">Core Team</Link>
-              <Link href="/events" className="nav-link">Events</Link>
-              <Link href="/contact" className="nav-link">Contact Us</Link>
+              <Link href="/" className={`nav-link ${isActive('/') ? 'active' : ''}`}>Home</Link>
+              <Link href="/team" className={`nav-link ${isActive('/team') ? 'active' : ''}`}>Core Team</Link>
+              <Link href="/events" className={`nav-link ${isActive('/events') ? 'active' : ''}`}>Events</Link>
+              <Link href="/contact" className={`nav-link ${isActive('/contact') ? 'active' : ''}`}>Contact Us</Link>
             </div>
             
             <div className="nav-actions">

@@ -217,8 +217,15 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--neutral-100);
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link.active {
   color: var(--ras-plum);
+}
+
+.nav-link.active {
+  font-weight: 700;
+  border-bottom: 2px solid var(--ras-plum);
+  padding-bottom: 0.25rem;
 }
 
 .nav-actions {
