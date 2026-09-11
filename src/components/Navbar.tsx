@@ -17,7 +17,6 @@ export default function Navbar() {
               <Link href="/" className="nav-link">Home</Link>
               <Link href="/team" className="nav-link">Core Team</Link>
               <Link href="/events" className="nav-link">Events</Link>
-              <Link href="/blog" className="nav-link">Blog</Link>
               <Link href="/contact" className="nav-link">Contact Us</Link>
             </div>
             

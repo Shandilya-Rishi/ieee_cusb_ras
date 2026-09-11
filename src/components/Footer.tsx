@@ -19,7 +19,6 @@ export default function Footer() {
             <li><Link href="/">Home</Link></li>
             <li><Link href="/team">Core Team</Link></li>
             <li><Link href="/events">Events</Link></li>
-            <li><Link href="/blog">Blog</Link></li>
             <li><Link href="/contact">Contact Us</Link></li>
           </ul>
         </div>
