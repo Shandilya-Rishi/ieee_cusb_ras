@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ThemeToggle from '@/components/ThemeToggle';
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -27,7 +28,10 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
         </nav>
 
         <div style={{ marginTop: 'auto', paddingTop: '2rem', borderTop: '1px solid var(--border-subtle)' }}>
-           <Link href="/" className="sidebar-link" style={{ color: 'var(--text-main)' }}>
+           <div style={{ marginBottom: '1rem' }}>
+             <ThemeToggle />
+           </div>
+           <Link href="/" className="sidebar-link" style={{ color: 'var(--text-main)', padding: '0.5rem 0' }}>
              ← Back to Public Site
            </Link>
         </div>
